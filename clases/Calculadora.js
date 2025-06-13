@@ -1,4 +1,4 @@
-const { resultados } = require("./resultado");
+const { resultados } = require("./bd/resultado");
 
 class Calculadora {
     sumar(a, b) {
