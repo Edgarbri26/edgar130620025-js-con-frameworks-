@@ -1,6 +1,7 @@
 const {Calculadora} = require("./clases/Calculadora");
+const {Pokemon} = require("./clases/pokemon");
 
-console.log("Hello, World!");
+/*console.log("Hello, World!");
 let contador = 0;
 let name = "edgar";
 const age = 30;
@@ -68,4 +69,7 @@ lista[indice] = {
 
 let eliminado = lista.splice(indice, 1);
 console.log(`Resultado eliminado: ID: ${eliminado[0].id}, Operacion: ${eliminado[0].operacion}, Valor A: ${eliminado[0].valorA}, Valor B: ${eliminado[0].valorB}, Resultado: ${eliminado[0].resultado}`);
-console.log("Resultados actualizados: ", lista);
+console.log("Resultados actualizados: ", lista);*/
+
+const pokemon = new Pokemon();
+pokemon.getPokemon("pikachu");
